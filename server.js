@@ -28,6 +28,7 @@ fs.readFile('./public/index.html', 'utf8', (err, data) => {
         return;
     }
     newData = data;
+    console.log(newData)
 });
 
 const server = http.createServer((req, res) => {
